@@ -40,7 +40,7 @@ const Header = () => (
 );
 
 const PresalePage = () => {
-  const [timeLeft, setTimeLeft] = useState(10 * 24 * 60 * 60); // 10 days in seconds
+  const [timeLeft, setTimeLeft] = useState(70 * 24 * 60 * 60); // 10 days in seconds
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -104,12 +104,17 @@ const PresalePage = () => {
               className="bg-white text-blue-600 px-6 py-2 rounded-full flex items-center hover:bg-blue-100 transition duration-300"
             >
               <BookOpen size={18} className="mr-2" />
-              Learn More on GitBook
+              Learn More on our Whitepaper
             </a>
+            
           </div>
+
+        <div>
+            <p className="font-italic text-center">The first Story Protocol MEME COIN</p>
+        </div>
           
           <div className="bg-white bg-opacity-10 shadow rounded-lg p-6 mb-12">
-            <h2 className="text-2xl font-semibold mb-4 text-center">Presale Countdown</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-center">Presale starts in</h2>
             <div className="flex justify-center flex-wrap">
               <CountdownCard value={days} label="Days" />
               <CountdownCard value={hours} label="Hours" />
@@ -202,6 +207,14 @@ const PresalePage = () => {
                 </div> */}
               </div>
             </div>
+          </div>
+
+          <div className="bg-white bg-opacity-10 shadow rounded-lg p-6 mb-12">
+            {/* <h3 className="text-xl font-semibold mb-4 text-center">Meme of the Day</h3> */}
+            <p className="text-center italic">
+              "Why did the intellectual property meme coin choose Pepe the Frog as its mascot?<br />
+              Because even Pepe knows that in the world of memes, you're bound to get "ribbit-off" — it's the coin that takes "copy-paste" to a whole new level!"
+            </p>
           </div>
           
           <div className="flex justify-center space-x-6">
