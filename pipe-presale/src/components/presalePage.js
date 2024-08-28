@@ -59,11 +59,11 @@ const PresalePage = () => {
   };
 
   const roadmapData = [
-    { quarter: 'Q3 2024', milestone: 'Token Launch', side: 'left' },
-    { quarter: 'Q4 2024', milestone: 'DEX Listing', side: 'right' },
-    { quarter: 'Q1 2025', milestone: 'CEX Listing', side: 'left' },
-    { quarter: 'Q2 2025', milestone: 'NFT Collection', side: 'right' },
-    { quarter: 'Q3 2025', milestone: 'Governance', side: 'left' },
+    { quarter: 'Q4 2024', milestone: 'Token Launch', side: 'left' },
+    { quarter: 'Q1 2025', milestone: 'DEX Listing', side: 'right' },
+    { quarter: 'Q2 2025', milestone: 'CEX Listing', side: 'left' },
+    { quarter: 'Q3 2025', milestone: 'NFT Collection', side: 'right' },
+    { quarter: 'Q4 2025', milestone: 'Governance', side: 'left' },
   ];
 
   const tokenomicsData = [
@@ -173,9 +173,9 @@ const PresalePage = () => {
                     <ul className="list-disc pl-5">
                       <li>Name: $pIPe</li>
                       <li>Symbol: $PIPE</li>
-                      <li>Total Supply: 1,000,000,000 PIPE</li>
+                      <li>Total Supply: 420,690,000,000,000 PIPE</li>
                       <li>Blockchain: Story Protocol (Layer 1)</li>
-                      <li>Token Standard: [Insert standard, e.g., SP-20]</li>
+                      <li>Token Standard: ERC-20</li>
                     </ul>
                   </div>
                   <div className="w-1/3">
